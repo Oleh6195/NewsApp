@@ -12,6 +12,10 @@
 		7C41DC7E2326AC8400919E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C41DC7C2326AC8400919E57 /* Main.storyboard */; };
 		7C41DC802326AC8600919E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C41DC7F2326AC8600919E57 /* Assets.xcassets */; };
 		7C41DC832326AC8600919E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C41DC812326AC8600919E57 /* LaunchScreen.storyboard */; };
+		7C41DC8C2326B79500919E57 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C41DC8B2326B79500919E57 /* News.swift */; };
+		7C41DC8E2326B7BC00919E57 /* New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C41DC8D2326B7BC00919E57 /* New.swift */; };
+		7CDD3C5F2327BCD600BE57DE /* VIewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD3C5D2327BCD600BE57DE /* VIewTableViewCell.swift */; };
+		7CDD3C602327BCD600BE57DE /* VIewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDD3C5E2327BCD600BE57DE /* VIewTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		7C41DC7F2326AC8600919E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C41DC822326AC8600919E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C41DC842326AC8600919E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C41DC8B2326B79500919E57 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		7C41DC8D2326B7BC00919E57 /* New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New.swift; sourceTree = "<group>"; };
+		7CDD3C5D2327BCD600BE57DE /* VIewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIewTableViewCell.swift; sourceTree = "<group>"; };
+		7CDD3C5E2327BCD600BE57DE /* VIewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VIewTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,8 @@
 		7C41DC6C2326AC8400919E57 = {
 			isa = PBXGroup;
 			children = (
+				7CDD3C5D2327BCD600BE57DE /* VIewTableViewCell.swift */,
+				7CDD3C5E2327BCD600BE57DE /* VIewTableViewCell.xib */,
 				7C41DC772326AC8400919E57 /* NewsApp */,
 				7C41DC762326AC8400919E57 /* Products */,
 			);
@@ -54,6 +64,7 @@
 		7C41DC772326AC8400919E57 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				7C41DC8A2326B76E00919E57 /* News */,
 				7C41DC782326AC8400919E57 /* AppDelegate.swift */,
 				7C41DC7A2326AC8400919E57 /* ViewController.swift */,
 				7C41DC7C2326AC8400919E57 /* Main.storyboard */,
@@ -62,6 +73,15 @@
 				7C41DC842326AC8600919E57 /* Info.plist */,
 			);
 			path = NewsApp;
+			sourceTree = "<group>";
+		};
+		7C41DC8A2326B76E00919E57 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				7C41DC8B2326B79500919E57 /* News.swift */,
+				7C41DC8D2326B7BC00919E57 /* New.swift */,
+			);
+			path = News;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CDD3C602327BCD600BE57DE /* VIewTableViewCell.xib in Resources */,
 				7C41DC832326AC8600919E57 /* LaunchScreen.storyboard in Resources */,
 				7C41DC802326AC8600919E57 /* Assets.xcassets in Resources */,
 				7C41DC7E2326AC8400919E57 /* Main.storyboard in Resources */,
@@ -135,7 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CDD3C5F2327BCD600BE57DE /* VIewTableViewCell.swift in Sources */,
+				7C41DC8C2326B79500919E57 /* News.swift in Sources */,
 				7C41DC7B2326AC8400919E57 /* ViewController.swift in Sources */,
+				7C41DC8E2326B7BC00919E57 /* New.swift in Sources */,
 				7C41DC792326AC8400919E57 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tyzhai.NewsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tyzhai.NewsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
