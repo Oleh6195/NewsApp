@@ -9,26 +9,18 @@ One to two paragraph statement about your product and what it does.
 
 ## Features
 
-- [x] Feature 1
-- [x] Feature 2
-- [x] Feature 3
-- [x] Feature 4
-- [x] Feature 5
+- [x] News Search
+- [x] Filter by category/country/source
+- [x] News sorted by date of publishing
+- [x] UITableViewCell contain: source, author, title, description, Image
+- [x] UIRefreshControl
+- [ ] Pagination
+- [x] Search and filter don't work together, because API doesn't allow it.
 
 ## Requirements
 
 - iOS 10.0+
 - swift 5
-
-## Installation
-
-#### Manually
-1. Download and drop ```YourLibrary.swift``` in your project.  
-2. Congratulations!  
-
-## Contribute
-
-We would love you for the contribution to **YourLibraryName**, check the ``LICENSE`` file for more info.
 
 ## Meta
 
