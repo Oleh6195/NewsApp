@@ -5,7 +5,7 @@
 
 One to two paragraph statement about your product and what it does.
 
-![](app.png)
+![](app.png =300x606)
 
 ## Features
 
